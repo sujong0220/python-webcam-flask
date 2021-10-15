@@ -1,0 +1,107 @@
+[Fri Oct 15 05:29:48.435220 2021] [wsgi:error] [pid 3423:tid 139972277954304] [remote 175.193.8.117:12098] mod_wsgi (pid=3423): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:29:48.436462 2021] [wsgi:error] [pid 3423:tid 139972277954304] [remote 175.193.8.117:12098] mod_wsgi (pid=3423): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:29:48.442193 2021] [wsgi:error] [pid 3423:tid 139972277954304] [remote 175.193.8.117:12098] Traceback (most recent call last):
+[Fri Oct 15 05:29:48.442221 2021] [wsgi:error] [pid 3423:tid 139972277954304] [remote 175.193.8.117:12098]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:29:48.442227 2021] [wsgi:error] [pid 3423:tid 139972277954304] [remote 175.193.8.117:12098]     from flaskapp import app as application
+[Fri Oct 15 05:29:48.442241 2021] [wsgi:error] [pid 3423:tid 139972277954304] [remote 175.193.8.117:12098] ModuleNotFoundError: No module named 'flaskapp'
+[Fri Oct 15 05:32:14.931797 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540] mod_wsgi (pid=3554): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:32:14.931887 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540] mod_wsgi (pid=3554): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:32:14.937317 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540] Traceback (most recent call last):
+[Fri Oct 15 05:32:14.937352 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:32:14.937359 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540]     from app import app as application
+[Fri Oct 15 05:32:14.937366 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:32:14.937372 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:32:14.937378 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:32:14.937383 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540]     from PIL import Image
+[Fri Oct 15 05:32:14.937398 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2540] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:32:15.880265 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367] mod_wsgi (pid=3554): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:32:15.880323 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367] mod_wsgi (pid=3554): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:32:15.880408 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367] Traceback (most recent call last):
+[Fri Oct 15 05:32:15.880440 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:32:15.880446 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367]     from app import app as application
+[Fri Oct 15 05:32:15.880454 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:32:15.880458 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:32:15.880465 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:32:15.882349 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367]     from PIL import Image
+[Fri Oct 15 05:32:15.882389 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:5367] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:32:16.427663 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876] mod_wsgi (pid=3554): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:32:16.427745 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876] mod_wsgi (pid=3554): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:32:16.427830 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876] Traceback (most recent call last):
+[Fri Oct 15 05:32:16.427859 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:32:16.427864 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876]     from app import app as application
+[Fri Oct 15 05:32:16.427870 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:32:16.427874 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:32:16.427880 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:32:16.427884 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876]     from PIL import Image
+[Fri Oct 15 05:32:16.427899 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:1876] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:32:16.640072 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003] mod_wsgi (pid=3554): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:32:16.640116 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003] mod_wsgi (pid=3554): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:32:16.640215 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003] Traceback (most recent call last):
+[Fri Oct 15 05:32:16.640248 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:32:16.640253 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003]     from app import app as application
+[Fri Oct 15 05:32:16.640260 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:32:16.640265 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:32:16.640271 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:32:16.640275 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003]     from PIL import Image
+[Fri Oct 15 05:32:16.640290 2021] [wsgi:error] [pid 3554:tid 140647631681280] [remote 175.193.8.117:10003] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:32:16.822390 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232] mod_wsgi (pid=3554): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:32:16.822433 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232] mod_wsgi (pid=3554): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:32:16.822532 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232] Traceback (most recent call last):
+[Fri Oct 15 05:32:16.822560 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:32:16.822565 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232]     from app import app as application
+[Fri Oct 15 05:32:16.822572 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:32:16.822576 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:32:16.822582 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:32:16.822586 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232]     from PIL import Image
+[Fri Oct 15 05:32:16.822600 2021] [wsgi:error] [pid 3554:tid 140647623288576] [remote 175.193.8.117:2232] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:33:10.367658 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829] mod_wsgi (pid=3680): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:33:10.368084 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829] mod_wsgi (pid=3680): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:33:10.373538 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829] Traceback (most recent call last):
+[Fri Oct 15 05:33:10.373575 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:33:10.373581 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829]     from app import app as application
+[Fri Oct 15 05:33:10.373589 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:33:10.373594 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:33:10.373601 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:33:10.373605 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829]     from PIL import Image
+[Fri Oct 15 05:33:10.373620 2021] [wsgi:error] [pid 3680:tid 140609137329920] [remote 175.193.8.117:11829] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:33:11.305308 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799] mod_wsgi (pid=3680): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:33:11.305363 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799] mod_wsgi (pid=3680): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:33:11.305445 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799] Traceback (most recent call last):
+[Fri Oct 15 05:33:11.305476 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:33:11.305482 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799]     from app import app as application
+[Fri Oct 15 05:33:11.305489 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:33:11.305494 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:33:11.307386 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:33:11.307396 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799]     from PIL import Image
+[Fri Oct 15 05:33:11.307415 2021] [wsgi:error] [pid 3680:tid 140609103759104] [remote 175.193.8.117:1799] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:35:39.242112 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744] mod_wsgi (pid=3843): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:35:39.242200 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744] mod_wsgi (pid=3843): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:35:39.247563 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744] Traceback (most recent call last):
+[Fri Oct 15 05:35:39.247597 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:35:39.247604 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744]     from app import app as application
+[Fri Oct 15 05:35:39.247612 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:35:39.247617 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:35:39.247624 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:35:39.247628 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744]     from PIL import Image
+[Fri Oct 15 05:35:39.247642 2021] [wsgi:error] [pid 3843:tid 140316205340416] [remote 175.193.8.117:8744] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:40:57.820478 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123] mod_wsgi (pid=3986): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:40:57.820564 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123] mod_wsgi (pid=3986): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:40:57.825953 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123] Traceback (most recent call last):
+[Fri Oct 15 05:40:57.825986 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:40:57.825992 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123]     from app import app as application
+[Fri Oct 15 05:40:57.825999 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:40:57.826004 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:40:57.826010 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:40:57.826015 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123]     from PIL import Image
+[Fri Oct 15 05:40:57.826028 2021] [wsgi:error] [pid 3986:tid 140275384944384] [remote 175.193.8.117:2123] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:41:03.935360 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076] mod_wsgi (pid=3986): Target WSGI script '/var/www/python-webcam-flask/run.wsgi' cannot be loaded as Python module.
+[Fri Oct 15 05:41:03.935418 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076] mod_wsgi (pid=3986): Exception occurred processing WSGI script '/var/www/python-webcam-flask/run.wsgi'.
+[Fri Oct 15 05:41:03.935517 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076] Traceback (most recent call last):
+[Fri Oct 15 05:41:03.935550 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076]   File "/var/www/python-webcam-flask/run.wsgi", line 4, in <module>
+[Fri Oct 15 05:41:03.935555 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076]     from app import app as application
+[Fri Oct 15 05:41:03.935562 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076]   File "/var/www/python-webcam-flask/app.py", line 2, in <module>
+[Fri Oct 15 05:41:03.935566 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076]     from makeup_artist import Makeup_artist
+[Fri Oct 15 05:41:03.935572 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076]   File "/var/www/python-webcam-flask/makeup_artist.py", line 1, in <module>
+[Fri Oct 15 05:41:03.935576 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076]     from PIL import Image
+[Fri Oct 15 05:41:03.935590 2021] [wsgi:error] [pid 3986:tid 140275393337088] [remote 175.193.8.117:3076] ModuleNotFoundError: No module named 'PIL'
+[Fri Oct 15 05:44:32.310438 2021] [wsgi:error] [pid 4169:tid 139834775664384] [remote 175.193.8.117:4653] The client is using an unsupported version of the Socket.IO or Engine.IO protocols (further occurrences of this error will be logged with level INFO)
